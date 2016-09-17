@@ -1,4 +1,8 @@
-# ANGU
+# NGRX STORE POC
+
+Proof of concept showing the Redux along with reducers working with Angular 2, provided by Ngrx Store implementation.
+
+It is a simple counter with a state saved in ngrx store.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.14.
 

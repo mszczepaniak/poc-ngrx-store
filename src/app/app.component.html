@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+  	<h1>NGRX STORE POC</h1>
+  	<counter [counter]="counter$"
+      (increment)="actions.increment()"
+      (decrement)="actions.decrement()"
+      (incrementIfOdd)="actions.incrementIfOdd()"
+      (incrementAsync)="actions.incrementAsync()">
+    </counter>
+  </div>
